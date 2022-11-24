@@ -9,7 +9,7 @@
     transform: translate(-50%, -50%);
     width: 100%;
 }
-
+/*  background-image: url("../img/banner.jpg") no-repeat center / cover ---> shorthands o propiedad abreviada  */
 .banner__img {
     background-image: url("../img/banner.jpg");
     background-position: center;

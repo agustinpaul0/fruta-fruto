@@ -1,0 +1,34 @@
+.footer {
+    background-color: #bfbfbf;
+    color: #fdfdfd;
+    padding: 1.5625rem 5rem;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width:0px) {
+    .footer {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .footer {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width:922px) {
+    .footer {
+        font-size: 1.5rem;
+    }
+}
